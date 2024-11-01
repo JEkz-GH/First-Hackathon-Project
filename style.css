@@ -560,7 +560,7 @@ footer{
     }
 }
 
-@media(max-width: 834px){
+@media (min-width:769) and (max-width: 834px){
     #absolute{
         bottom: 95px;
     }
