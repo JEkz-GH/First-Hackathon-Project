@@ -1,0 +1,593 @@
+body{
+    /* width: 1512px; */
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --primary: #15473e;
+    --secondary: #f3f9eb;
+}
+
+/* Nav Section */
+.nav .nav-container{
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    
+}
+.logo h3{
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 32px;
+}
+#span{
+    color: #959698;
+}
+.nav-links ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: #959698;
+    font-weight: 400;
+    font-size: 20px;
+}
+#hm{
+    color: var(--primary);
+}
+
+/* Hero Section */
+.hero-sctn .container{
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 50px;
+}
+/* .hero-msg{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+} */
+.hero-msg h3{
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 50px;
+}
+.hero-msg p{
+    color: #111111;
+}
+.rc{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.rc button{
+    background-color: var(--primary);
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.rc a{
+    text-decoration: none;
+    color: var(--primary);
+}
+.hero-px{
+    position: relative;
+}
+.hero-px img{
+    height: 100px;
+    width: 362px;
+}
+#absolute{
+    position: absolute;
+    z-index: 1;
+    right: -30px;
+    bottom: 47px;
+}
+#absolute img{
+    height: 100px;
+    width: 240px;
+}
+
+/* About Section */
+.about{
+    background-color: #ffffff;
+    padding: 50px;
+}
+#cmpny{
+    display: flex;
+    justify-content: space-between;
+}
+#cmpny img{
+    height: 40px;
+}
+.about .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.abt-msg h4{
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 36px;
+}
+.abt-img img{
+    height: 570px;
+    width: 500px;
+}
+.abt-msg button{
+    background-color: var(--primary);
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+/* Who Section */
+
+.who{
+    background-color: var(--primary);
+    color: var(--secondary);
+    text-align: center;
+    padding: 50px;
+}
+.who h4{
+    font-size: 32px;
+    font-weight: 600;
+}
+.who .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+}
+.who .container div{
+    padding: 10px;
+}
+.who .container div h4{
+    font-size: 26px;
+    font-weight: 500;
+}
+.who .container div a{
+    text-decoration: none;
+    color: var(--secondary);
+}
+#who-img{
+    background: none;
+}
+.who button{
+    background-color: var(--secondary);
+    color: var(--primary);
+    margin-top: 5px;
+    padding: 10px 20px;
+}
+
+/* Ideas Section */
+.ideas .container{
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 50px;
+    
+}
+#idea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#idea h4{
+    font-size: 36px;
+    font-weight: 600;
+}
+#idea p{
+    font-size: 22px;
+    font-weight: 500;
+}
+#tools{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 20px 45px;
+}
+#tools div{
+    background-color: white;
+    padding: 20px;
+    align-items: start;
+    gap: 4px;
+}
+#tools div h4{
+    font-size: 26px;
+    font-weight: 500;
+}
+#tools div p{
+    font-size: 20px;
+    font-weight: 400;
+}
+#sub-tools{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 45px;
+}
+#sub-tools div{
+    padding: 20px;
+}
+#sub-tools div h4{
+    font-size: 26px;
+    font-weight: 500;
+
+}
+#sub-tools div p{
+    font-size: 20px;
+    font-weight: 400;
+}
+#sub-tools a{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+/* Testimonials Section */
+.Testimonials .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+.testi h3{
+    font-size: 36px;
+    font-weight: 600;
+}
+.testi p{
+    font-size: 24px;
+    font-weight: 400;
+}
+.testi button{
+    background-color: var(--primary);
+    color: var(--secondary);
+    margin-top: 50px;
+    padding: 10px 20px;
+}
+.Tes-numbers{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.Tes-numbers div h4 a{
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 40px;
+    font-weight: 600;
+}
+.Tes-numbers div p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* Middle Hero Section */
+.hero{
+    background: url(images/hero-img.jpeg) no-repeat center/cover;
+    height: 350px;
+}
+.hero .container{
+    padding: 20px;
+    text-align: center;
+}
+#hero-p{
+    color: var(--secondary);
+    font-size: 32px;
+    font-weight: 400;
+}
+.hero .container button{
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 10px 20px;
+}
+
+/* Blog Section */
+.blog-sctn{
+    background-color: #ffffff;
+    /* padding: 50px; */
+}
+#head3{
+    color: var(--primary);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 50px;
+}
+.card{
+    gap: 27px;
+}
+.card img{
+    width: 370px;
+    height: 218px;
+}
+.card h3{
+    color: var(--primary);
+    font-size: 24px;
+    font-weight: 600;
+}
+.card p{
+    color: #111111;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.blog-sctn .container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 463px;
+    padding: 50px;
+}
+.git h3{
+    color: var(--primary);
+    font-size: 36px;
+    font-weight: 600;
+}
+.git p{
+    color: #111111;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form{
+    background-color: var(--primary);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    width: 600px;
+    height: 463px;
+}
+form{
+    gap: 1rem;
+}
+.fname{
+    width: 272px;
+    height: 57px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.email{
+    width: 560px;
+    height: 57px;
+    margin-bottom: 20px;
+}
+.message{
+    width: 560px;
+    height: 157px;
+    margin-bottom: 20px;
+}
+.btn3{
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer{
+    background-color: var(--primary);
+    color: #ffffff;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 29px;
+    padding: 50px;
+}
+#hac{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+}
+#th{
+    color: #959698;
+}
+.foot div h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.foot div p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.foot div h5{
+    font-size: 20px;
+    font-weight: 500;
+}
+.eml{
+    width: 370px;
+    height: 57px;
+}
+.btn4{
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 20px 30px;
+    margin: 20px 100px 0px 100px;
+}
+
+.foot-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+#f2{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+#f2 a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+/* MEDIA QUERY */
+@media(max-width: 768px){
+    .nav .nav-container{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .nav-links ul{
+        gap: 10px;
+        margin-right: 40px;
+    }
+    /* Hero Section */
+    .hero-sctn .container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hero-px img{
+        height: 50px;
+        width: 181px;
+    }
+    #absolute img{
+        height: 50px;
+        width: 120px;
+    }
+    /* About Section */
+    .about .container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .abt-img img{
+        height: 285px;
+        width: 250px;
+    }
+    #cmpny{
+        flex-direction: column;
+    }
+    #cmpny img{
+        object-fit: contain;
+    }
+    /* Who Section */
+    .who .container{
+        flex-direction: column;
+    }
+    /* Ideas */
+    #idea{
+        flex-direction: column;
+    }
+    #tools{
+        grid-template-columns: 1fr;
+    }
+    #sub-tools{
+        grid-template-columns: 1fr;
+    }
+    /* Testimonials Section */
+    .Testimonials .container{
+        flex-direction: column;
+    }
+    #t-img{
+        height: 200px;
+        width: 280px;
+    }
+    .Tes-numbers{
+        flex-direction: column;
+    }
+    /* Middle Hero Section */
+    #hero-p{
+        font-size: 26px;
+    }
+    /* Blog Section */
+    .blog-sctn .container1{
+        grid-template-columns: 1fr;
+    }
+    .card img{
+        width: 300px;
+        object-fit: contain;
+    }
+    .blog-sctn .container2{
+        flex-direction: column;
+    }
+    .form{
+        height: 300px;
+        width: 300px;
+    }
+    .blog-sctn .container2{
+        height: 600px;
+    }
+    .fname{
+        height: 27px;
+        width: 136px;
+    }
+    .email{
+        height: 27px;
+        width: 280px;
+    }
+    .message{
+        width: 280px;
+        height: 80px;
+    }
+    .foot{
+        grid-template-columns: 1fr;
+    }
+    .foot-2{
+        flex-direction: column;
+    }
+    .foot div h2{
+        font-size: 20px;
+    }
+    .foot div p{
+        font-size: 15px;
+    }
+    .foot div h5{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .eml{
+        width: 285px;
+        height: 27px;
+    }
+    .btn4{
+        padding: 10px 20px;
+        margin: 10px 50px 0px 50px;
+    }
+}
+
+@media(max-width: 834px){
+    #absolute{
+        bottom: 95px;
+    }
+    .blog-sctn .container1{
+        grid-template-columns: 1fr;
+    }
+    .card img{
+        width: 740px;
+        object-fit: center/cover;
+    }
+    .form{
+        width: 450px;
+        height: 400px;
+    }
+    .fname{
+        width: 180px;
+        height: 37px;
+    }
+    .email{
+        width: 380px;
+        height: 37px;
+    }
+    .message{
+        width: 380px;
+        height: 147px;
+    }
+    .foot{
+        grid-template-columns: 1fr;
+    }
+}
